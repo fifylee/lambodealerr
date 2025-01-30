@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CarDealer- Lamborghini.Dealer</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@600;700&family=Ubuntu:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-light p-0">
+        <div class="row gx-0 d-none d-lg-flex">
+            <div class="col-lg-7 px-5 text-start">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-map-marker-alt text-primary me-2"></small>
+                    <small>67, Jalan Tun Razak, Kuala Lumpur</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center py-3">
+                    <small class="far fa-clock text-primary me-2"></small>
+                    <small>Mon - Fri : 09.00 AM - 09.00 PM</small>
+                </div>
+            </div>
+            <div class="col-lg-5 px-5 text-end">
+                <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+                    <small class="fa fa-phone-alt text-primary me-2"></small>
+                    <small>+011-14210736</small>
+                </div>
+                <div class="h-100 d-inline-flex align-items-center">
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/Lamborghini/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-1" href="https://x.com/Lamborghini"><i class="fab fa-twitter"></i></a>
+                    <a class="btn btn-sm-square bg-white text-primary me-0" href="https://www.instagram.com/lamborghini/?hl=en"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <nav class="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+        <a href="index.html" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <h2 class="m-0 text-primary"><i class="fa fa-lamborghini"></i>Lamborghini Dealer</h2>
+        </a>
+        <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto p-4 p-lg-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">About</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="about.html" class="dropdown-item">About Us</a>
+                        <a href="booking.html" class="dropdown-item">Booking</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown">Dealer</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="dealership.location.html" class="dropdown-item active">Dealership Location</a>
+                        <a href="offers.html" class="dropdown-item">Offers</a>
+                        <a href="service.html" class="dropdown-item">Service</a>
+                    </div>
+                </div>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Model</a>
+                    <div class="dropdown-menu fade-up m-0">
+                        <a href="newtemerario.html" class="dropdown-item">Temerario</a>
+                        <a href="new revuelto.html" class="dropdown-item">Reveulto</a>
+                        <a href="newurus.html" class="dropdown-item">Urus</a>
+                        <a href="newhuracan.html" class="dropdown-item">Huracan</a>
+                        <a href="newpreowned.html" class="dropdown-item">Pre Owned</a>
+                        <a href="newlimited series.html" class="dropdown-item">Limited Series</a>
+                    </div>
+                </div>
+                <a href="event.html" class="nav-item nav-link">Event</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- css for animation -->
+    <style>
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-30px);
+            }
+            60% {
+                transform: translateY(-15px);
+            }
+        }
+
+        .bounce-animation {
+            animation: bounce 2s infinite;
+        }
+    </style>
+    <!-- css for animation -->
+
+    <!-- Page Header Start -->
+    <div class="container-fluid page-header mb-5 p-0" style="background-image: url(img/header\ bg.jpg);">
+        <div class="container-fluid page-header-inner py-5">
+            <div class="container text-center">
+                <h1 class="display-3 text-white mb-3 bounce-animation">
+                    <sup>DEALERSHIP</sup><sub>LOCATION</sub>
+                </h1>
+                <nav aria-label="breadcrumb"></nav>
+            </div>
+        </div>
+    </div>
+    <!-- Page Header End -->
+
+<!--Map Container-->
+<div class="flex flex-wrap justify-between pt-12 -mx-6">
+
+    <!-- Mapping Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5 flex-column">
+                <!-- Image Section -->
+                <div class="col-lg-12 text-center">
+                    <div class="position-relative wow fadeIn" data-wow-delay="0.1s">
+                        <!-- Image Map Generated by http://www.image-map.net/ -->
+                        <img src="img/asia dealership map.jpg" usemap="#image-map">
+
+                        <map name="image-map">
+                            <area target="_blank" alt="KL, MALAYSIA" title="KL, MALAYSIA" href="https://www.lamborghini.com/en-en/dealerships/lamborghini-kuala-lumpur#showroom" coords="35,32,271,142" shape="rect">
+                            <area target="_blank" alt="BUNDANG, KOREA" title="BUNDANG, KOREA" href="https://www.lamborghini.com/en-en/dealerships/lamborghini-bundang#showroom" coords="406,29,642,142" shape="rect">
+                            <area target="_blank" alt="BANGKOK, THAILAND" title="BANGKOK, THAILAND" href="https://www.lamborghini.com/en-en/dealerships/lamborghini-bangkok#showroom" coords="780,27,1016,145" shape="rect">
+                            <area target="_blank" alt="MANILLA, PHILIPPINES" title="MANILLA, PHILIPPINES" href="https://www.lamborghini.com/en-en/dealerships/lamborghini-manila#showroom" coords="37,418,271,533" shape="rect">
+                            <area target="_blank" alt="SENDAI, JAPAN" title="SENDAI, JAPAN" href="https://www.lamborghini.com/en-en/dealerships/lamborghini-sendai#showroom" coords="776,422,1016,536" shape="rect">
+                        </map>
+                        <!-- Information overlay -->
+                        <div class="position-absolute top-0 end-0 mt-n4 me-n4 py-4 px-5" style="background: rgba(0, 0, 0, .08);">
+                            <h1 class="display-4 text-black mb-0">5 <span class="fs-4">Asia</span></h1>
+                            <h4 class="text-black">Countries</h4>
+                        </div>
+                    </div>
+                </div>
+                <!-- Text Section -->
+                <div class="col-lg-12">
+                    <h6 class="text-primary text-uppercase text-center">// Dealership Locations //</h6>
+                    <h1 class="mb-4 text-center"><span class="text-primary">Asia LamboDealer</span> Finding out around 5 countries in Asia that provide LamboDealer</h1>
+                    <p class="mb-4 text-center">With 15 years of unparalleled expertise, we take pride in 
+                        being the ultimate destination for Lamborghini enthusiasts. Our mission is to deliver a seamless and 
+                        luxurious experience that reflects the iconic Lamborghini legacy.
+                        <br><br>Asia LamboDealer located in 
+                        <br>1. Kuala Lumpur, Malaysia.
+                        <br>2. Bundang, South Korea.
+                        <br>3. Bangkok, Thailand.
+                        <br>4. Manilla, Philippines.
+                        <br>5. Sendai, Japan.
+                        <br><br>Kindly <b>click on exact countries</b> in map to details about dealership each countries.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Mapping End -->
+
+    <!-- Booking Start -->
+    <div class="container-fluid fact bg-dark my-5 py-5" style="background: url('img/contact\ detail\ bg.jpg') no-repeat center center; background-size: cover;">
+        <div class="container">
+            <div class="row gx-5">
+                <div class="col-lg-6 py-5">
+                    <div class="py-5">
+                        <h1 class="text-white mb-4">Contact the dealer in details here.</h1>
+                        <p class="text-white mb-0" style="text-align: justify;">By reaching out, individuals can inquire about the latest 
+                            Lamborghini models, including their specifications, pricing, and availability. 
+                            It also provides an opportunity to schedule test drives and experience the 
+                            exceptional performance and luxury that Lamborghini vehicles offer firsthand. 
+                            Additionally, customers can gain insights into various dealership services, 
+                            such as maintenance, customization options, and financing plans, ensuring 
+                            that all their needs are met. Engaging with Lamborghini experts allows for 
+                            a seamless and personalized experience, tailored to reflect the luxury and 
+                            exclusivity that the brand is known for. This phrase serves as a gateway 
+                            to explore the world of Lamborghini in greater detail, emphasizing the 
+                            dealership's commitment to exceptional service.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="bg-primary h-100 d-flex flex-column justify-content-center text-center p-5 wow zoomIn" data-wow-delay="0.6s">
+                        <h1 class="text-white mb-4">Contact for details</h1>
+                        <form onsubmit="showPopup(event)">
+                            <div class="row g-3">
+                                <div class="col-12 col-sm-6">
+                                    <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;" required>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <select class="form-select border-0" style="height: 55px;" required>
+                                        <option selected disabled>Select A Country</option>
+                                        <option value="1">Kuala Lumpur, Malaysia</option>
+                                        <option value="2">Bundang, South Korea</option>
+                                        <option value="3">Bangkok, Thailand</option>
+                                        <option value="4">Manila, Philippines</option>
+                                        <option value="5">Sendai, Japan</option>
+                                    </select>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="date" id="date1" data-target-input="nearest">
+                                        <input type="text" class="form-control border-0 datetimepicker-input"
+                                            placeholder="Preferred Date to Deal" data-target="#date1" data-toggle="datetimepicker" style="height: 55px;" required>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <textarea class="form-control border-0" placeholder="Notes/Detail Request" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-secondary w-100 py-3" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                
+                <script>
+                    function showPopup(event) {
+                        event.preventDefault(); // Prevent form submission
+                        alert("Your request has been submitted successfully! We will contact you soon.");
+                    }
+                </script>                
+            </div>
+        </div>
+    </div>
+    <!-- Booking End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s" style="background: url('img/lambokuningfade.jpg') no-repeat center center; background-size: cover;">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Address</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>67, Jalan Tun Razak, Kuala Lumpur</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+011 14210736</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/lamborghini/?hl=en"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/Lamborghini/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.youtube.com/channel/UC9DXZC8BCDOW6pYAQKgozqw"><i class="fab fa-youtube"></i></a>
+                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/automobili-lamborghini-s-p-a-/"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Opening Hours</h4>
+                    <h6 class="text-light">Monday - Friday:</h6>
+                    <p class="mb-4">09.00 AM - 09.00 PM</p>
+                    <h6 class="text-light">Saturday - Sunday:</h6>
+                    <p class="mb-0">09.00 AM - 12.00 PM</p>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <h4 class="text-light mb-4">Services</h4>
+                    <a class="btn btn-link" href="service.html">Repair and Maintanence</a>
+                    <a class="btn btn-link" href="service.html">Parts and Accessories</a>
+                    <a class="btn btn-link" href="service.html">Customer Care and Warrantyt</a>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="#">LamborghiniDealer</a>, All Right Reserved.
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
